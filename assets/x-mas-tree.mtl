@@ -1,0 +1,55 @@
+
+# Blender 5.0.1 MTL File: 'Xmas tree.blend'
+# www.blender.org
+
+newmtl TreeBase
+Kd 0.100000 0.600000 0.200000
+# Much brighter, more saturated green
+# Old: 0.026241 0.171441 0.099899 (dark, muted)
+# New: bright festive green
+
+Ks 0.800000 0.800000 0.800000
+# Increased specular for more shine
+
+Ke 0.050000 0.100000 0.050000
+# Added slight emission for a magical glow
+
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.300000
+# Reduced roughness for more shine (was 1.0)
+
+Pm 0.100000
+# Added slight metalness
+
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+
+newmtl tree_trunk
+Kd 0.450000 0.250000 0.100000
+# Brighter, warmer brown
+# Old: 0.192336 0.080432 0.034903 (very dark)
+# New: rich, warm brown
+
+Ks 0.600000 0.600000 0.600000
+# More specular highlights
+
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.600000
+# Slightly smoother (was 0.5)
+
+Pm 0.050000
+# Tiny bit of metalness for variation
+
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
